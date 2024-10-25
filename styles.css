@@ -44,6 +44,28 @@ h1, h2 {
     color: #333;
 }
 
+.devops-logos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between rows */
+}
+
+.devops-row {
+    display: flex;
+    justify-content: center; /* Center align logos */
+    gap: 15px; /* Space between logos */
+}
+
+.devops-logo {
+    width: 40px; /* Adjust logo size */
+    height: 40px; /* Adjust logo size */
+    transition: transform 0.3s;
+}
+
+.devops-logo:hover {
+    transform: scale(1.1); /* Slightly enlarge logo on hover */
+}
+
 ul {
     list-style: none;
     padding: 0;
